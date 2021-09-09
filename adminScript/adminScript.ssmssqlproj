@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="adminScript">
+  <Items>
+    <LogicalFolder Name="Соединения" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="test3:sa">
+          <Created>2019-02-28T11:06:59.4099735+03:00</Created>
+          <Type>SQL</Type>
+          <Server>test3</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="TEST3\S2014:sa">
+          <Created>2017-11-14T12:04:55.8106155+03:00</Created>
+          <Type>SQL</Type>
+          <Server>TEST3\S2014</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>TestBase</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="TEST3\S2017:sa">
+          <Created>2018-09-05T10:03:18.577308+03:00</Created>
+          <Type>SQL</Type>
+          <Server>TEST3\S2017</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="VKBS2:sa">
+          <Created>2017-01-29T17:13:13.5226765+03:00</Created>
+          <Type>SQL</Type>
+          <Server>VKBS2</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="vkbs2:zamuraev_av">
+          <Created>2017-12-13T16:56:41.9605828+03:00</Created>
+          <Type>SQL</Type>
+          <Server>vkbs2</Server>
+          <UserName>zamuraev_av</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Запросы" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="backup_restore.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>backup_restore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="backup_vkb.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>backup_vkb.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BackupRestoreDB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>BackupRestoreDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="blocking.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>blocking.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CLR.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>CLR.sql</FullPath>
+        </FileNode>
+        <FileNode Name="cpu_Hard_query.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>cpu_Hard_query.sql</FullPath>
+        </FileNode>
+        <FileNode Name="db_help.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>db_help.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Excel.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEST3\S2014:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEST3\S2014</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Excel.sql</FullPath>
+        </FileNode>
+        <FileNode Name="index_missing.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>index_missing.sql</FullPath>
+        </FileNode>
+        <FileNode Name="index_rebuild.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>index_rebuild.sql</FullPath>
+        </FileNode>
+        <FileNode Name="index_text.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>index_text.sql</FullPath>
+        </FileNode>
+        <FileNode Name="index_un_used.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>index_un_used.sql</FullPath>
+        </FileNode>
+        <FileNode Name="index_use_stats.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>index_use_stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IntToBigint.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>IntToBigint.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IO_Any.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>IO_Any.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Kill_Conect.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Kill_Conect.sql</FullPath>
+        </FileNode>
+        <FileNode Name="kladr.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEST3\S2017:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEST3\S2017</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>kladr.sql</FullPath>
+        </FileNode>
+        <FileNode Name="language_change.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>language_change.sql</FullPath>
+        </FileNode>
+        <FileNode Name="last_backup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>last_backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="last_restart.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>last_restart.sql</FullPath>
+        </FileNode>
+        <FileNode Name="lock_query.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>lock_query.sql</FullPath>
+        </FileNode>
+        <FileNode Name="log.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>log.sql</FullPath>
+        </FileNode>
+        <FileNode Name="login_copy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>login_copy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="memory_object.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>memory_object.sql</FullPath>
+        </FileNode>
+        <FileNode Name="object_info.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:test3:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>test3</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>object_info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="operation_statistic.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>operation_statistic.sql</FullPath>
+        </FileNode>
+        <FileNode Name="phone_check.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>phone_check.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ProcFuncTrView_text.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ProcFuncTrView_text.sql</FullPath>
+        </FileNode>
+        <FileNode Name="restart_service.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>restart_service.sql</FullPath>
+        </FileNode>
+        <FileNode Name="right_to_table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>right_to_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="session_active.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>session_active.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SeviceBroker.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SeviceBroker.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_who.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>sp_who.sql</FullPath>
+        </FileNode>
+        <FileNode Name="table_space.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>table_space.sql</FullPath>
+        </FileNode>
+        <FileNode Name="table_statistic.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>table_statistic.sql</FullPath>
+        </FileNode>
+        <FileNode Name="update_stats.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>update_stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="wait.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VKBS2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VKBS2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>wait.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Разное" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
