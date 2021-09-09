@@ -1,0 +1,3 @@
+select RAND(CHECKSUM(NEWID()))
+SELECT (CONVERT(INT, (CONVERT(BINARY(4), (NEWID()))))) % 100
+select cast(CONVERT(BINARY(4), (NEWID())) as tinyint)

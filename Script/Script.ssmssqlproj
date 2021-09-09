@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Script">
+  <Items>
+    <LogicalFolder Name="Соединения" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="test3:sa">
+          <Created>2021-02-26T13:28:43.9747826+03:00</Created>
+          <Type>SQL</Type>
+          <Server>test3</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>xbc</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="vkbs2:sa">
+          <Created>2020-03-31T10:05:45.1740297+03:00</Created>
+          <Type>SQL</Type>
+          <Server>vkbs2</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>vkb</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Запросы" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="AvitoDeveloperParser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vkbs2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vkbs2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>AvitoDeveloperParser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="checkPetitionStatuses.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vkbs2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vkbs2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>checkPetitionStatuses.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CountClick.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CountClick.sql</FullPath>
+        </FileNode>
+        <FileNode Name="cteNumberUp.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vkbs2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vkbs2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>cteNumberUp.sql</FullPath>
+        </FileNode>
+        <FileNode Name="cteTree.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vkbs2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vkbs2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>cteTree.sql</FullPath>
+        </FileNode>
+        <FileNode Name="deleteFlatsResrve.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vkbs2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vkbs2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>deleteFlatsResrve.sql</FullPath>
+        </FileNode>
+        <FileNode Name="excel_Load.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>excel_Load.sql</FullPath>
+        </FileNode>
+        <FileNode Name="generateDecade.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>generateDecade.sql</FullPath>
+        </FileNode>
+        <FileNode Name="generatePeriod.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>generatePeriod.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertFromXml.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>InsertFromXml.sql</FullPath>
+        </FileNode>
+        <FileNode Name="mailTest.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vkbs2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vkbs2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>mailTest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PhoneByMask.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PhoneByMask.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PotencialClientsImport.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PotencialClientsImport.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Random.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vkbs2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vkbs2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Random.sql</FullPath>
+        </FileNode>
+        <FileNode Name="repairApplication.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vkbs2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vkbs2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>repairApplication.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RequestHistory_ReserveFlats.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>RequestHistory_ReserveFlats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RequiestHistory_parse.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>RequiestHistory_parse.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SelectFromJsonNotify.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SelectFromJsonNotify.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Server_Broken.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Server_Broken.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SetProjectDivision.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SetProjectDivision.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UnPivot.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>UnPivot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="updateFlats.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>updateFlats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="web_counter.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>web_counter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="xmlNalog.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>xmlNalog.sql</FullPath>
+        </FileNode>
+        <FileNode Name="xmlParser.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>xmlParser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="xmlTest.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>xmlTest.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Разное" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

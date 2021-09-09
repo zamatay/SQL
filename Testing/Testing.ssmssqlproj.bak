@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Testing">
+  <Items>
+    <LogicalFolder Name="Соединения" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="TEST3\s2008:SA">
+          <Created>2014-03-25T11:40:41.6030161+03:00</Created>
+          <Type>SQL</Type>
+          <Server>TEST3\s2008</Server>
+          <UserName>SA</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>VKB_1</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="vkbs2:SA">
+          <Created>2015-06-19T12:29:10.8809439+03:00</Created>
+          <Type>SQL</Type>
+          <Server>vkbs2</Server>
+          <UserName>SA</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="vkbs2:Zamuraev_AV">
+          <Created>2012-03-29T08:13:17.2745474+03:00</Created>
+          <Type>SQL</Type>
+          <Server>vkbs2</Server>
+          <UserName>Zamuraev_AV</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="vkbs2:sa">
+          <Created>2015-01-14T10:13:16.2658514+03:00</Created>
+          <Type>SQL</Type>
+          <Server>vkbs2</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Запросы" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="PotencialClientsImport.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PotencialClientsImport.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ProjectTestDistrib.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vkbs2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vkbs2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ProjectTestDistrib.sql</FullPath>
+        </FileNode>
+        <FileNode Name="1cImportXML.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>C:\Users\Zamuraevav.TEST3\AppData\Local\Temp\2\1cImportXML.sql</FullPath>
+        </FileNode>
+        <FileNode Name="xmlAtribute.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>xmlAtribute.sql</FullPath>
+        </FileNode>
+        <FileNode Name="generatePeriod.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vkbs2:False:Zamuraev_AV</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vkbs2</AssociatedConnSrvName>
+          <AssociatedConnUserName>Zamuraev_AV</AssociatedConnUserName>
+          <FullPath>generatePeriod.sql</FullPath>
+        </FileNode>
+        <FileNode Name="xmlParser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vkbs2:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vkbs2</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>xmlParser.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Разное" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
